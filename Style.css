@@ -1,3 +1,30 @@
 body {
   background: rgb(255, 87, 87);
+  min-height: 500px;
+}
+span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.Compte_rebours {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  background: rgb(0, 0, 0);
+  color: white;
+}
+p {
+  font-size: 3rem;
+}
+.Etat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 100px;
+  min-width: 100px;
 }
